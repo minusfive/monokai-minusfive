@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>Monokai Soda</string>
+    <string>Monokai minusfive</string>
     <key>settings</key>
     <array>
         <dict>
@@ -199,22 +199,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Tag name</string>
-            <key>scope</key>
-            <string>entity.name.tag</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string></string>
-                <key>foreground</key>
-                <string>#F92672</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Tag attribute</string>
             <key>scope</key>
-            <string>entity.other.attribute-name</string>
+            <string>entity.other.attribute-name, entity.name.tag.class, entity.name.tag.id</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
